@@ -13,6 +13,11 @@ code {
 }
 
 /* WEBSITE STYLE */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* NAVBAR STYLE */
 .nav-container ul {
   display: flex;
@@ -28,4 +33,29 @@ code {
   color: rgb(235, 229, 229);
   text-decoration: none;
   font-weight: bold;
+}
+
+.tb {
+  border-collapse: collapse;
+}
+.tb th,
+.tb td {
+  padding: 10px 20px;
+  border: solid 1px #777;
+}
+.tb th {
+  background-color: lightblue;
+}
+
+.input-container {
+  margin-top: 37px;
+  padding: 40px;
+  box-shadow: 2px 3px 15px;
+}
+input {
+  padding: 7px 11px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 13px;
 }
