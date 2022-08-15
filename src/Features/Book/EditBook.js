@@ -24,6 +24,7 @@ const EditBook = () => {
             <label htmlFor="title">Book Title</label>
             <br />
             <input
+              data-testid="text-input"
               onChange={(e) => setEditTitle(e.target.value)}
               type="text"
               id="title"
@@ -42,7 +43,9 @@ const EditBook = () => {
               required
             />
           </div>
-          <button type="submit">Edit Book</button>
+          <button data-testid="counter" type="submit">
+            Edit Book
+          </button>
         </form>
       </div>
     </div>

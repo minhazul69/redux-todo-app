@@ -46,7 +46,9 @@ const AddBook = () => {
               required
             />
           </div>
-          <button type="submit">Add Book</button>
+          <button data-testid="button" type="submit">
+            Add Book
+          </button>
         </form>
       </div>
     </div>
