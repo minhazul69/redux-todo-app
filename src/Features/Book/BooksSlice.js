@@ -5,6 +5,8 @@ const initialBooks = {
     { id: 1, title: "Match Book", author: "Akib" },
     { id: 2, title: "English Book", author: "Minhajul" },
     { id: 3, title: "Bangla Book", author: "Mohammad" },
+    { id: 4, title: "Physics Book", author: "Minhaj Bro" },
+    { id: 5, title: "Chemistry Book", author: "Akib Bro" },
   ],
 };
 const bookSlice = createSlice({
